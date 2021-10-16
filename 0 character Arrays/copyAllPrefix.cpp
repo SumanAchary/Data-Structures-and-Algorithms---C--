@@ -22,16 +22,10 @@ void printAllPrefix(char str[]){
 	}
 }
 
-void nothing(){
-	static int x = 5;
-}
-
-
 int main()
 {
  char str[] = "abcd";
  printAllPrefix(str);
-nothing();
 
 
 }
